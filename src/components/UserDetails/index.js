@@ -1,6 +1,6 @@
 import {Component} from 'react'
 import {TailSpin} from 'react-loader-spinner'
-import User from '../User'
+import UserCard from '../UserCard'
 import Pagination from '../Pagination'
 import './index.css'
 
@@ -10,7 +10,7 @@ const requestStatusConstants = {
   failure: 'FAILED',
 }
 
-class Admin extends Component {
+class UserDetails extends Component {
   state = {
     users: [],
     requestStatus: 'LOADING',
@@ -221,7 +221,7 @@ class Admin extends Component {
               <h1 className="header-actions">Actions</h1>
             </li>
             {currentPageUsers.map(eachUser => (
-              <User
+              <UserCard
                 users={eachUser}
                 key={eachUser.id}
                 updateUser={this.updateUser}
@@ -273,4 +273,4 @@ class Admin extends Component {
   }
 }
 
-export default Admin
+export default UserDetails

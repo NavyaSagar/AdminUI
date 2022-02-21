@@ -4,7 +4,7 @@ import {FiEdit} from 'react-icons/fi'
 import {AiOutlineDelete} from 'react-icons/ai'
 import './index.css'
 
-class User extends Component {
+class UserCard extends Component {
   state = {
     editedName: '',
     editedEmail: '',
@@ -132,4 +132,4 @@ class User extends Component {
     )
   }
 }
-export default User
+export default UserCard

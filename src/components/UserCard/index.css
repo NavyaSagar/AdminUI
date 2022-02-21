@@ -22,12 +22,12 @@
 }
 
 .edit-icon {
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .delete-user-icon {
   color: crimson;
-  font-size: 22px;
+  font-size: 20px;
 }
 
 .editor-mode-container {
@@ -57,7 +57,7 @@
   margin: 6px;
   margin-left: 7vw;
   font-family: 'Roboto';
-  font-size: 16px;
+  font-size: 17px;
   color: aliceblue;
   background-color: rgb(0, 116, 211);
   border: 0px solid;
